@@ -6,3 +6,5 @@ AA = np.genfromtxt(
         Path('./data/AAindex_544nr.csv'),
         delimiter=',', names=True)
 
+TR_DATA = {}
+TE_DATA = {}
