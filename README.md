@@ -1,4 +1,4 @@
-# TumorStoppy <img src="https://github.com/NCBI-Hackathons/TumorSTOppy/blob/master/resources/tumor-snake-logo.png" width="50" height="50">
+# <img src="https://github.com/NCBI-Hackathons/TumorSTOppy/blob/master/resources/tumor-snake-logo.png" width="50" height="50"> TumorSTOPpy
 
 ## Website
 https://quocdat32461997.github.io/tumorstopp/
