@@ -10,6 +10,7 @@ from keras.utils import np_utils
 
 # Loading the training data
 (X_train, y_train), (X_test, y_test) = mnist.load_data() # CHANGE
+print(y_train)
 
 # Formatting the input data layer
 X_train = X_train.reshape(60000, 784) # CHANGE DIMENSION
