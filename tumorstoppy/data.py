@@ -93,7 +93,7 @@ class Data (object):
 
 # Amino Acid dictionary
 AA = np.genfromtxt(
-        Path('./data/AAindex_544nr.csv'),
+        Path('data/AAindex_544nr.csv'),
         delimiter=',', names=True)
 
 CDR3 = Data(
