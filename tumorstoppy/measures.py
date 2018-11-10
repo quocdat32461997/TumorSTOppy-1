@@ -29,4 +29,4 @@ def error_evaluation(weights, data, gaps=0, verbose=False):
     return (Mean1 + Mean3) / Mean2
 
 def concurrent_error_evaluation(weights, data, gaps=0):
-
+    pass
