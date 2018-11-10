@@ -1,4 +1,4 @@
-# TumorSTOp.py
+# TumorSTOppy
 
 ## Awesome Logo
 
