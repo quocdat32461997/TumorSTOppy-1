@@ -1,12 +1,13 @@
 import numpy as np
 from itertools import product
-from Bio.SubsMat import MatrixInfo
+from Bio import pairwise2 as pairwise
+from Bio.SubsMat import MatrixInfo as matlist
 
 def trivial_cost(c1, c2):
     return 0 if (c1 == c2 and '-' not in (c1,c2)) else 1
 
-def blossum62(c1, c2):
-    return MatrixInfo.blossum62[(c1, c2)] if '-' not in (c1, c2) else -4
+def blosum62(c1, c2):
+    return matlist.blosum62[(c1, c2)] if '-' not in (c1, c2) else -4
 
 def levenshtein_distance(s1, s2, cost_func=trivial_cost):
     s1 = '-' + s1
@@ -28,3 +29,6 @@ def levenshtein_distance(s1, s2, cost_func=trivial_cost):
                     ])
 
     return dist[l1,l2]
+
+def blosum62_distance(s1, s2):
+    pass
