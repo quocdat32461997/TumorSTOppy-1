@@ -1,6 +1,4 @@
-# Implementation of the nearest neighbor cost functions
-
-import math
+import numpy as np
 from distances import *
 
 def undefined_cost_function (tumor, nontumor, weights):
