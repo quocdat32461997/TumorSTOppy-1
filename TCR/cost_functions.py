@@ -1,14 +1,14 @@
 # Implementation of the nearest neighbor cost functions
 
 import math
-import distances
+from distances import *
 
 def undefined_cost_function (tumor, nontumor, weights):
     # tumor and nontumor are lists of strings
     # weights is a list of floating point numbers
     N1 = len(tumor)
     N2 = len(nontumor)
-    
+
     M1 = 0
     # Calculating M1
     for i in range(N1):
