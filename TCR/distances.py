@@ -30,5 +30,16 @@ def levenshtein_distance(s1, s2, cost_func=trivial_cost):
 
     return dist[l1,l2]
 
-def blosum62_distance(s1, s2):
-    pass
+def blosum62_distance(s1, s2, weights=None):
+    if len(s1) is not len(s2):
+        pairs = pairwise.align.globaldx(s1, s2, matlist.blosum62)
+        s1, s2 = sorted(pairs, key=lambda p: p[2])[0][:1]
+
+    if not weights:
+        weights = len(s1)*[1]
+
+    cost = 0
+    for i in range(len(s1)):
+        cost += weights[i] * blosum62(s1[i], s2[i])
+
+    return cost
