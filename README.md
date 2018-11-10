@@ -1,4 +1,4 @@
-# TumorSTOPpy
+# TumorStoppy
 
 ![Alt text](https://github.com/NCBI-Hackathons/TumorSTOppy/blob/master/resources/tumor-snake-logo.png)
 
