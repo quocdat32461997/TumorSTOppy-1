@@ -1,6 +1,6 @@
-# TumorSTOppy
+# TumorSTOPpy
 
-## Awesome Logo
+![Alt text](https://github.com/NCBI-Hackathons/TumorSTOppy/blob/master/resources/tumor-snake-logo.png)
 
 ## Website
 https://quocdat32461997.github.io/tumorstopp/
