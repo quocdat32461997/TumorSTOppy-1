@@ -1,7 +1,7 @@
 # Optimization functions
 import numpy as np
 from scipy.optimize import minimize
-import cost_functions # Will be renamed to 'measures'
+import measures 
 
 # TODO
 # Load the appropriate data
@@ -9,4 +9,5 @@ import cost_functions # Will be renamed to 'measures'
 # Optimize based on some randomly chosen weights
 # Celebrate
 
+weights = [0] * 13
 
