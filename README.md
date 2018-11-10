@@ -2,7 +2,7 @@
 
 ## Awesome Logo
 
-## Website coming soon!
+## Website
 https://quocdat32461997.github.io/tumorstoppy/
 
 ### We designed a machine learning method to distinguish two types of T cell receptor hypervariable CDR3 sequences!  
