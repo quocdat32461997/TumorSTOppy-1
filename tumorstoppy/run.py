@@ -7,5 +7,4 @@ from data import *
 cdr3 = CDR3_13
 dist = distances.blosum62_distance
 erreval = measures.error_evaluation
-
 print(erreval(None, cdr3['training'], verbose=True))
