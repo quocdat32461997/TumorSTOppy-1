@@ -1,5 +1,5 @@
 from time import time
-from distances import *
+from tumorstoppy.distances import *
 t1=time()
 
 s1="CASSGATGREKFF"

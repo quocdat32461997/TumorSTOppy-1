@@ -1,7 +1,7 @@
 import numpy as np
 import itertools as it
 import operator as op
-from distances import *
+from .distances import *
 
 def error_evaluation(weights, data, gaps=0, verbose=False):
     N1, N2 = map(len, data)

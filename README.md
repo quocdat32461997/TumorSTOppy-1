@@ -1,9 +1,9 @@
-# TumorSTOp.py
+# TumorSTOppy
 
 ## Awesome Logo
 
 ## Website
-https://quocdat32461997.github.io/tumorstoppy/
+https://quocdat32461997.github.io/tumorstopp/
 
 ### We designed a machine learning method to distinguish two types of T cell receptor hypervariable CDR3 sequences!  
 
