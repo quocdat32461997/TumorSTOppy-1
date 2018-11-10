@@ -1,4 +1,4 @@
-# TumorSTOppy
+# TumorSTOPpy
 
 ## Awesome Logo
 
